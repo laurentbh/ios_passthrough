@@ -41,6 +41,7 @@ done
 `/usr/bin/vfio-bind 0000:6c:00.0`
 
 - add after qemu returns
+
 `echo 0000:6c:00.0 > /sys/bus/pci/drivers/vfio-pci/unbind`
 `echo 0000:6c:00.0 > /sys/bus/pci/drivers/xhci-hcd/bind`
 
