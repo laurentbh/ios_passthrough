@@ -1,6 +1,7 @@
 dumping notes to have ios passthrough to qEMU
 - archlinux distrib
 - NUC8 machine
+
 **warning** unbind doesn't work !!
 
 # boot kernel with io mmu 
